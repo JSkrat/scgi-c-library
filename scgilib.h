@@ -20,6 +20,7 @@
 
 #include <unistd.h>
 #include <fcntl.h>
+#include <sys/types.h>
 
 typedef struct SCGI_PORT scgi_port;
 typedef struct SCGI_HEADER scgi_header;
